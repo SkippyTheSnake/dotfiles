@@ -10,6 +10,7 @@
         "source.organizeImports": true
     },
     "workbench.settings.editor": "json",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontWeight": "500",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
@@ -33,5 +34,12 @@
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": true,
     "editor.acceptSuggestionOnCommitCharacter": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // Allow emmet to work in .js files
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
