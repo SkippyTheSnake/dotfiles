@@ -28,15 +28,16 @@
             "fontSize": 16,
             "padding": "10, 5, 0, 0",
             "cursorShape": "vintage",
-            "snapOnInput": true
+            "snapOnInput": true,
             // No starting directory so you can use the wt explorer address bar shortcut
-            // "startingDirectory": "E:/"
+            // "commandline": "wsl.exe ~"
         },
         "list": [
             {
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "//wsl$/Ubuntu/home/reid/"
             },
             {
                 // Make changes here to the cmd.exe profile
@@ -60,6 +61,12 @@
                 "guid": "{97c77bd6-5499-5685-a474-dd4c37f1e751}",
                 "hidden": false,
                 "name": "UbuntuOld",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "hidden": false,
+                "name": "kali-linux",
                 "source": "Windows.Terminal.Wsl"
             }
         ]
