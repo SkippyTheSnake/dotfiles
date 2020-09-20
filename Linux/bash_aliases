@@ -1,7 +1,3 @@
-# SSH shortcuts
-alias tower="ssh root@10.128.0.100"
-alias app-host="ssh skippythesnake@10.128.0.115"
-
 # Navigate to windows drives
 alias c="cd /mnt/c/"
 alias d="cd /mnt/d/"

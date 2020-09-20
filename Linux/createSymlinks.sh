@@ -10,3 +10,6 @@ ln -s ${BASEDIR}/bash_aliases ~/.bash_aliases
 
 # .config
 ln -s ${BASEDIR}/config ~/.config
+
+# .ssh/config
+ln -s ${BASEDIR}/.ssh/config ~/.ssh/config
